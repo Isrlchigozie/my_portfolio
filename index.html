@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Li | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Li<span class="accent">.Corp</span></div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#services">What I Do</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="accent">Li</span></h1>
+      <h2>Full-Stack Developer & Software Engineer</h2>
+      <p>I create elegant, performant digital solutions that solve real-world problems. With expertise across the full technology stack, I bridge the gap between innovative ideas and robust implementation.</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="floating-card">
+        <img src="assets/profile2.jpg" alt="Li Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- What I Do -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">What I Do</h2>
+      <p class="section-subtitle">I specialize in creating comprehensive digital solutions from concept to deployment</p>
+      <div class="cards">
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Building responsive, accessible, and scalable websites using modern technologies like React, Vue.js, HTML5, CSS3, and JavaScript ES6+.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3>Backend & APIs</h3>
+          <p>Developing secure, high-performance backends with Python, Node.js, Django, Flask, and REST/GraphQL APIs with proper authentication.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3>Desktop Applications</h3>
+          <p>Creating intuitive desktop applications with Python (PyQT5, Tkinter) for finance, productivity, and specialized business needs.</p>
+        </div>
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h3>E-Commerce Platforms</h3>
+          <p>Building full-featured marketplaces with payment integration, user management & admin dashboard, and escrow systems for secure transactions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">My Portfolio</h2>
+      <p class="section-subtitle">A selection of projects that showcase my skills and approach to problem-solving</p>
+      <div class="projects-grid">
+        <a href="safevoice.html" class="project-card fade-in">
+          <div class="project-image">
+            <img src="assets/safevoice-home0.png" alt="SafeVoice">
+            <div class="project-overlay">
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>SafeVoice</h3>
+            <p>A secure real-time two-way anonymous communication platform with advanced voice features and end-to-end encryption.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </a>
+        <a href="finance.html" class="project-card fade-in">
+          <div class="project-image">
+            <img src="assets/finance_app_home.png" alt="Finance Manager">
+            <div class="project-overlay">
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Finance Manager</h3>
+            <p>A comprehensive desktop application for personal finance tracking, budgeting, and financial analytics.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>PyQT5</span>
+              <span>SQLite</span>
+            </div>
+          </div>
+        </a>
+        <a href="hustlenet.html" class="project-card fade-in">
+          <div class="project-image">
+            <img src="assets/hustlenet home1.png" alt="HustleNet">
+            <div class="project-overlay">
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>HustleNet</h3>
+            <p>A modern freelance marketplace with escrow payment system, user reviews, and project management tools.</p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>React</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio-cta">
+        <a href="#contact" class="btn primary">Interested in working together?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2 class="section-title">My Resume</h2>
+      <p class="section-subtitle">Education, experience, and technical proficiencies</p>
+      <div class="resume-grid">
+        <div class="resume-column">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="resume-item">
+            <h4>B.Sc. Computer Science</h4>
+            <p class="resume-meta">Abia State University | 2021 - 2025</p>
+            <p>Specialized in software engineering, algorithms, and database management.</p>
+          </div>
+          <div class="resume-item">
+            <h4>Full Stack Web Development Certification</h4>
+            <p class="resume-meta">FreeCodeCamp | 2022</p>
+            <p>Completed comprehensive curriculum covering frontend and backend technologies, data structures, and algorithms.</p>
+          </div>
+        </div>
+        <div class="resume-column">
+          <h3><i class="fas fa-briefcase"></i> Experience</h3>
+          <div class="resume-item">
+            <h4>Freelance Developer</h4>
+            <p class="resume-meta">Self-Employed | 2020 - 2023</p>
+            <p>Developed custom solutions for small to medium businesses, specializing in e-commerce platforms and productivity tools.</p>
+          </div>
+          <div class="resume-item">
+            <h4>Full-Stack Developer</h4>
+            <p class="resume-meta">LiCorp Technologies LTD | 2023 - Present</p>
+            <p>Lead developer responsible for architecting and implementing web applications, APIs, and desktop solutions for diverse clients.</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills-section">
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Frontend</h4>
+            <div class="skill-tags">
+              <span>React</span>
+              <span>Vue.js</span>
+              <span>JavaScript (ES6+)</span>
+              <span>HTML5</span>
+              <span>CSS3/SASS</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Backend</h4>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Python</span>
+              <span>Django</span>
+              <span>Flask</span>
+              <span>Express.js</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Database & Tools</h4>
+            <div class="skill-tags">
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>SQLite</span>
+              <span>Git</span>
+              <span>Docker</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">I'm always open to discussing new opportunities and creative projects</p>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:islchigozie@gmail.com">islchigozie@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/isrlchigozie" target="_blank">github.com/isrlchigozie</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/israel-chigozie-65b3a1353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">isrlchigozie</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" action="https://formsubmit.co/islchigozie@gmail.com" method="POST">
+          <h3>Send me a message</h3>
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <!-- FormSubmit hidden fields -->
+          <input type="hidden" name="_subject" value="New message from your portfolio!">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo">Li<span class="accent">.Corp</span></div>
+          <p>Creating digital solutions that make a difference</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <h4>Connect With Me</h4>
+          <div class="social-icons">
+            <a href="https://github.com/isrlchigozie"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/israel-chigozie-65b3a1353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/isrlchigozie"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/isrlchigozie"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 LiCorp Technologies LTD. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Alert Modal -->
+  <div id="alertModal" class="alert-modal">
+    <div class="alert-content">
+      <div class="alert-icon success">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3 class="alert-title">Success!</h3>
+      <p class="alert-message" id="alertMessage">Your message has been sent successfully.</p>
+      <button class="alert-button" onclick="closeAlertModal()">Continue</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
