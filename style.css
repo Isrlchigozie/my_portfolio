@@ -1203,7 +1203,7 @@ footer {
   font-size: 0.8rem;
   font-weight: 500;
   z-index: 2;
-  opacity: 0;
+  opacity: 1;
   transition: var(--transition);
 }
 
