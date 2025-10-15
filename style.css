@@ -466,6 +466,14 @@ nav a.active::after {
   z-index: 2;
 }
 
+.project-hero-image{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
 .floating-card {
   width: 400px;
   height: 400px;
