@@ -1901,6 +1901,111 @@ footer {
   color: var(--gray);
 }
 
+/* Installation Steps Styles */
+.installation-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.step-card {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.step-number {
+  background: #2563eb;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.step-content h3 {
+  margin: 0 0 0.4rem 0;
+  color: #1e293b;
+  font-size: 1.1rem;
+}
+
+.step-content p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.step-content code {
+  background: #e2e8f0;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: #dc2626;
+  font-size: 0.85rem;
+}
+
+.step-content a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.step-content a:hover {
+  text-decoration: underline;
+}
+
+/* System Requirements - Keep the original style */
+.system-requirements {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.system-requirements h3 {
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+  text-align: center;
+}
+
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.requirement-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.requirement-item i {
+  color: #2563eb;
+  font-size: 1.5rem;
+  width: 30px;
+  text-align: center;
+}
+
+.requirement-item span {
+  color: #475569;
+  font-weight: 500;
+}
+
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
